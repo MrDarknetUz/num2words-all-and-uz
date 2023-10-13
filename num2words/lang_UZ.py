@@ -17,10 +17,10 @@
 
 from __future__ import unicode_literals
 
-from base import Num2Word_Base
+from .base import Num2Word_Base
 from .utils import get_digits, splitbyx
 
-ZERO = 'нөл'
+ZERO = 'nol'
 
 ONES = {
     1: 'bir',
